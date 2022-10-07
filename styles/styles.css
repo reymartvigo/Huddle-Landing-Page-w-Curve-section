@@ -1,0 +1,499 @@
+header {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header button {
+  outline: none;
+  border-radius: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: hsl(322deg, 100%, 66%);
+  padding: 0.7rem 2rem;
+  background: none;
+  border: 2.5px solid hsl(322deg, 100%, 66%);
+}
+header button:hover {
+  border: 2.5px solid hsl(321deg, 100%, 78%);
+  color: hsl(321deg, 100%, 78%);
+}
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  header {
+    padding: 4rem 1rem;
+    justify-content: space-between;
+  }
+  header img {
+    width: 10rem;
+  }
+  header button {
+    padding: 0.5rem 1rem;
+  }
+}
+main {
+  width: 100%;
+}
+main .introduction {
+  padding: 10rem 4rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+main .introduction h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+main .introduction p {
+  width: 50%;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+main .introduction button {
+  outline: none;
+  border-radius: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px 0px hsla(321deg, 100%, 78%, 0.7);
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-size: 1.3rem;
+  border: none;
+  background: hsl(322deg, 100%, 66%);
+  padding: 1.4rem 8rem;
+}
+main .introduction button:hover {
+  background: hsl(321deg, 100%, 78%);
+}
+main .introduction img {
+  margin-top: 8rem;
+  width: 85%;
+}
+main .middle-sec {
+  background-image: url(../image/bg-section-top-desktop-1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8rem 10rem 15rem;
+}
+main .middle-sec div {
+  width: auto;
+}
+main .middle-sec div h2 {
+  font-size: 5rem;
+}
+main .middle-sec div p {
+  text-align: center;
+}
+main .grow-together {
+  background-color: rgb(246, 251, 255);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  gap: 5rem;
+}
+main .grow-together div {
+  width: 50%;
+}
+main .grow-together .grow-content h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+main .grow-together .grow-img img {
+  width: 100%;
+}
+main .flowing-conversations {
+  background-image: url(../image/bg-section-bottom-desktop-2.svg), url(../image/bg-section-top-desktop-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top, bottom;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15rem 5rem;
+  gap: 5rem;
+}
+main .flowing-conversations div {
+  width: 50%;
+}
+main .flowing-conversations .flow-content h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+main .flowing-conversations .flow-img img {
+  width: 100%;
+}
+main .your-user {
+  background-color: rgb(246, 251, 255);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15rem 5rem;
+  gap: 5rem;
+}
+main .your-user div {
+  width: 50%;
+}
+main .your-user .user-content h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+main .your-user .user-img img {
+  width: 100%;
+}
+main .build {
+  background-image: url(../image/bg-section-bottom-desktop-2.svg), url(../image/bg-footer-top-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top, bottom;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15rem 5rem 20rem;
+}
+main .build h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+main .build button {
+  outline: none;
+  border-radius: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px 0px hsla(321deg, 100%, 78%, 0.7);
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-size: 1.3rem;
+  border: none;
+  background: hsl(322deg, 100%, 66%);
+  padding: 1.4rem 8rem;
+}
+main .build button:hover {
+  background: hsl(321deg, 100%, 78%);
+}
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  main .introduction {
+    margin-bottom: 5rem;
+    padding: 10rem 1.5rem 0;
+  }
+  main .introduction h2 {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
+  main .introduction p {
+    width: 100%;
+  }
+  main .introduction button {
+    box-shadow: 0px 5px 15px 0px hsla(321deg, 100%, 78%, 0.7);
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    border: none;
+    background: hsl(322deg, 100%, 66%);
+    padding: 1.3rem 3rem;
+  }
+  main .middle-sec {
+    background-image: url(../image/bg-section-top-mobile-1.svg);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 6rem 5rem;
+  }
+  main .middle-sec div {
+    width: auto;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  main .middle-sec div img {
+    position: relative;
+  }
+  main .middle-sec div h2 {
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  main .middle-sec div p {
+    font-size: 0.9rem;
+  }
+  main .grow-together,
+main .your-user {
+    text-align: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 2rem;
+    gap: 5rem;
+  }
+  main .grow-together div,
+main .grow-together .flowing-conversations div,
+main .your-user div,
+main .your-user .flowing-conversations div {
+    width: 100%;
+  }
+  main .grow-together .grow-content h2,
+main .grow-together .user-content h2,
+main .your-user .grow-content h2,
+main .your-user .user-content h2 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  main .grow-together .grow-content p,
+main .grow-together .user-content p,
+main .your-user .grow-content p,
+main .your-user .user-content p {
+    font-size: 1rem;
+  }
+  main .grow-together .grow-content,
+main .grow-together .grow-img,
+main .grow-together .user-img,
+main .your-user .grow-content,
+main .your-user .grow-img,
+main .your-user .user-img {
+    width: 100%;
+  }
+  main .flowing-conversations {
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 2rem;
+    gap: 5rem;
+  }
+  main .flowing-conversations div {
+    width: 100%;
+  }
+  main .flowing-conversations .flow-content h2 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  main .flowing-conversations .flow-content p {
+    font-size: 1rem;
+  }
+  main .build {
+    padding: 15rem 2rem;
+  }
+  main .build h2 {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+  }
+  main .build button {
+    box-shadow: 0px 5px 15px 0px hsla(321deg, 100%, 78%, 0.7);
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    border: none;
+    background: hsl(322deg, 100%, 66%);
+    padding: 1rem 3rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .middle-sec {
+    background-image: url(../image/bg-section-top-mobile-1.svg);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 8rem 2.5rem 5rem;
+  }
+  .middle-sec div {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .middle-sec div img {
+    position: relative;
+  }
+  .middle-sec div h2 {
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  .middle-sec div p {
+    font-size: 0.9rem;
+  }
+}
+.error {
+  border: 2px solid red;
+}
+
+.error-message {
+  color: red;
+}
+
+.success {
+  border: 2px solid green;
+}
+
+footer {
+  background-color: hsl(192deg, 100%, 9%);
+  padding: 5rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+footer h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  color: white;
+}
+footer p {
+  margin-bottom: 1.5rem;
+  padding-right: 10rem;
+  color: #fff;
+}
+footer .left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+footer .left-side .social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+footer .left-side .social ion-icon {
+  margin-top: 3rem;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+footer .right-side {
+  width: 50%;
+}
+footer .right-side form {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+footer .right-side form .form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+footer .right-side form input {
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  width: 100%;
+  padding: 0.6rem;
+  outline: none;
+}
+footer .right-side form button {
+  outline: none;
+  border-radius: 0.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  background: hsl(322deg, 100%, 66%);
+  border: none;
+  height: 2.5rem;
+  font-size: 1rem;
+  width: 40%;
+}
+footer .right-side form button:hover {
+  background: hsl(321deg, 100%, 78%);
+}
+
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  footer {
+    padding: 5rem 2rem;
+    flex-direction: column-reverse;
+  }
+  footer h2 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  footer p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    padding-right: unset;
+  }
+  footer .left-side {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  footer .left-side p {
+    margin-top: 1rem;
+  }
+  footer .right-side {
+    width: 100%;
+  }
+  footer .right-side form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  footer .right-side form button {
+    position: relative;
+    left: 50%;
+    width: 50%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main,
+footer {
+  width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h2 {
+  color: hsl(192deg, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: hsl(192deg, 100%, 9%);
+  font-size: 1.2rem;
+}
+
+section {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */

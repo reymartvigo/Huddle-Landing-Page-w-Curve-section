@@ -1,0 +1,61 @@
+$primarypink: hsl(322, 100%, 66%);
+$primarylight: hsl(321, 100%, 78%);
+$primarylightred: hsl(0, 100%, 63%);
+
+$border: 1px solid #000;
+
+$DarkCyan: hsl(192, 100%, 9%);
+$PaleBlue: rgb(246, 251, 255);
+
+$bodyfont: "Open Sans", sans-serif;
+
+$secdiv: 50%;
+
+$width: 100%;
+
+@mixin headings {
+  color: $DarkCyan;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+@mixin button($radius: 3rem) {
+  outline: none;
+  border-radius: $radius;
+  font-family: $bodyfont;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@mixin paragraph {
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: $DarkCyan;
+  font-size: 1.2rem;
+}
+
+@mixin sections($padd: 2rem) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: $padd;
+  gap: 5rem;
+}
+
+@mixin section-head($fsize: 2rem) {
+  font-size: $fsize;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+@mixin btn-intro-end($fontsize: 1.3rem, $padding: 1.4rem 8rem) {
+  -webkit-box-shadow: 0px 5px 15px 0px hsla(321, 100%, 78%, 0.7);
+  box-shadow: 0px 5px 15px 0px hsla(321, 100%, 78%, 0.7);
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-size: $fontsize;
+  border: none;
+  background: $primarypink;
+  padding: $padding;
+}

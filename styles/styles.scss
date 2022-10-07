@@ -1,0 +1,30 @@
+@use "variable";
+@use "heading";
+@use "main";
+@use "footer";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main,
+footer {
+  width: 100%;
+}
+
+body {
+  font-family: variable.$bodyfont;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h2 {
+  @include variable.headings;
+}
+p {
+  @include variable.paragraph;
+}
+
+section {
+  width: 100%;
+}

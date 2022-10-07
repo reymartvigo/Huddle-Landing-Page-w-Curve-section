@@ -1,0 +1,32 @@
+@use "variable";
+header {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    @include variable.button;
+    color: variable.$primarypink;
+    padding: 0.7rem 2rem;
+    background: none;
+    border: 2.5px solid variable.$primarypink;
+  }
+  button:hover {
+    border: 2.5px solid variable.$primarylight;
+    color: variable.$primarylight;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  header {
+    padding: 4rem 1rem;
+    justify-content: space-between;
+    img {
+      width: 10rem;
+    }
+    button {
+      padding: 0.5rem 1rem;
+    }
+  }
+}
